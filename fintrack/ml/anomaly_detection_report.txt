@@ -1,0 +1,34 @@
+============================================================================
+ FINTRACK: CYBERSECURITY TRANSACTION ANOMALY DETECTION REPORT
+ Timestamp: 2026-10-31 10:35:33
+ Guide: Dr. K Swapnika | Department of CSE, KL University
+============================================================================
+
+1. EXECUTIVE SUMMARY
+--------------------
+An unsupervised Isolation Forest algorithm was deployed to profile normal
+financial spending distributions across 12 pastel categories, detecting multi-variate
+adversarial vectors including extreme spike outliers, nocturnal velocity spikes,
+and micro-transaction card harvesting probes.
+
+2. QUANTITATIVE METRICS
+-----------------------
+  • Total Evaluation Samples: 1200
+  • True Positives (Detected Fraud):   60
+  • False Positives (False Alarms):    0
+  • True Negatives (Legitimate Safe):  1140
+  • False Negatives (Missed Threats):  0
+
+  • Classification Accuracy:  100.00%
+  • Precision:                100.00%
+  • Recall (Sensitivity):     100.00%
+  • Specificity:              100.00%
+  • F1-Score:                 100.00%
+  • ROC Area Under Curve:     1.0000
+
+3. ALIGNMENT WITH FLUTTER APPLICATION INTEGRATION
+------------------------------------------------
+The learned decision boundaries and statistical Z-score velocity heuristics
+are natively replicated inside lib/services/anomaly_detection_service.dart
+for real-time, low-latency, client-side threat interception on iOS/Android.
+============================================================================

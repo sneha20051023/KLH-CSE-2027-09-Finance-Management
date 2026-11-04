@@ -1,0 +1,48 @@
+{
+  "project": "FINTRACK \u2013 Cybersecurity-Driven Financial Management System",
+  "institution": "KL University, Department of CSE",
+  "course": "Engineering Capstone Project \u2013 1 (23IE4053R/23IE4053A)",
+  "guide": "Dr. K Swapnika",
+  "team_members": [
+    {
+      "name": "Sneha Mithra",
+      "id": "2320030368"
+    },
+    {
+      "name": "Likhita Yegalla",
+      "id": "2320030247"
+    },
+    {
+      "name": "Sai Akshaya",
+      "id": "2320030367"
+    }
+  ],
+  "execution_timestamp": "2026-10-31 10:35:33",
+  "algorithm": "Isolation Forest (Ensemble Partitioning)",
+  "features_used": [
+    "amount",
+    "hour",
+    "velocity_1h",
+    "amount_z_score",
+    "category_code",
+    "is_weekend"
+  ],
+  "metrics": {
+    "total_samples": 1200,
+    "true_positives": 60,
+    "false_positives": 0,
+    "true_negatives": 1140,
+    "false_negatives": 0,
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "specificity": 1.0,
+    "f1_score": 1.0,
+    "roc_auc": 1.0
+  },
+  "parameters": {
+    "n_estimators": 100,
+    "contamination": 0.05,
+    "random_state": 42
+  }
+}
